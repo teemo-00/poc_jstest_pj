@@ -1,0 +1,5 @@
+2015-05-17T10:58:15+1000 <log> TestLogger_Stream.js:24 (Object.<anonymous>) Testing Logger
+2015-05-17T11:01:28+1000 <log> TestLogger_Stream.coffee:12 (Object.<anonymous>) Testing Logger
+2015-05-17T11:02:06+1000 <log> TestLogger_Stream.coffee:12 (Object.<anonymous>) Testing Logger
+2015-05-17T11:03:01+1000 <log> TestLogger_Stream.coffee:12 (Object.<anonymous>) Testing Logger
+[36m2015-05-17T11:05:07+1000 <debug> TestLogger_Stream.coffee:12 (Object.<anonymous>) Testing Logger[39m

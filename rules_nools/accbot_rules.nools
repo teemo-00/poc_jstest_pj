@@ -1,0 +1,20 @@
+define BankTransact {
+	trandesc:'',
+	category:'None',
+	constructor : function(transacref, category){
+		this.trandesc = transacref;
+		this.category = 'None';
+	}
+}
+
+//Find all close express entries
+rule ColesExpress {
+	when {
+		bt : BankTransact bt.trandesc =~ /^coles(\s*express)?$/;
+	}
+	then {
+	    bt.category = 'ColesExpress';
+	    this.category='dddddd';
+	    this.bla = 'foo';
+	}
+}

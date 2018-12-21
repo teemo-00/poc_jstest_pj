@@ -1,0 +1,6 @@
+2015-05-16T17:13:23+1000 <log> TestLogger_File.js:19 (Object.<anonymous>) hello
+2015-05-16T17:13:23+1000 <trace> TestLogger_File.js:20 (Object.<anonymous>) hello world
+2015-05-16T17:13:23+1000 <info> TestLogger_File.js:22 (Object.<anonymous>) hello world 123 { foo: 'bar' }
+2015-05-16T17:13:23+1000 <warn> TestLogger_File.js:23 (Object.<anonymous>) hello world 123 {"foo":"bar"}
+2015-05-16T17:13:23+1000 <debug> TestLogger_File.js:21 (Object.<anonymous>) hello world 123
+2015-05-16T17:13:23+1000 <error> TestLogger_File.js:24 (Object.<anonymous>) hello world 123 {"foo":"bar"} [ 1, 2, 3, 4 ] function Object() { [native code] }
